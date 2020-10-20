@@ -1,0 +1,19 @@
+alias j jobs
+alias jv jobs -v
+alias q queue
+alias qs queue stop
+alias qd queue -d
+alias qm queue -m
+alias k kill
+alias ka kill all
+alias p put
+alias g get
+alias pg pget -n 10
+alias m mirror
+alias mpg mirror --use-pget-n=10
+alias mpl mirror --parallel=5
+alias mpgl mirror --use-pget-n=10 --parallel=3
+alias mr mirror -r
+alias mp mirror -R
+
+set net:limit-total-rate 6291456:0
