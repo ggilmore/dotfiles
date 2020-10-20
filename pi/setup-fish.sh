@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 set -euxo pipefail
-cd "$(dirname "${BASH_SOURCE[0]}")"/..
+cd "$(dirname "${BASH_SOURCE[0]}")"
 
 FISH_CONFIG_FILE="${HOME}/.config/fish/config.fish"
 
@@ -15,3 +15,5 @@ if [ ! -f "$FISH_AUTO_JUMP_FILE" ]; then
 fi
 
 cp ./config.fish "${FISH_CONFIG_FILE}"
+
+chsh -s /usr/bin/fish
