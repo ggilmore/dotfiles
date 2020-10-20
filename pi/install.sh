@@ -43,7 +43,7 @@ sudo bash -c "yes | apt install ${BAT_DEB_FILE}"
 FD_DEB_FILE="${TMP_DIR}/fd.deb"
 FD_VERSION="${FD_VERSION:-"8.1.1"}"
 
-wget -O "${FD_DEB_FILE}" "https://github.com/sharkdp/fd/releases/download/v${FD_VERSION}/fd_  ${FD_VERSION}_armhf.deb"
+wget -O "${FD_DEB_FILE}" "https://github.com/sharkdp/fd/releases/download/v${FD_VERSION}/fd_${FD_VERSION}_armhf.deb"
 sudo bash -c "yes | apt install ${FD_DEB_FILE}"
 
 # install log2ram
