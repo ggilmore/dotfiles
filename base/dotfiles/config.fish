@@ -6,7 +6,7 @@ abbr cat bat
 abbr ca 'code --add .'
 abbr gco 'git checkout'
 abbr gcob 'git checkout -b'
-abbr gcom 'git checkout master;
+abbr gcom 'git checkout master'
 abbr gl 'glances --theme-white'
 abbr k kubectl
 abbr kcc 'kubectl config current-context'
