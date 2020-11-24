@@ -1,0 +1,12 @@
+shfmt 3.1.1
+golang system
+dhall system
+shellcheck 0.7.1
+python system
+ds-to-dhall system
+yq 3.3.0
+yarn 1.22.5
+nodejs system
+kubectl system
+fd system
+just system
